@@ -78,4 +78,34 @@ span.section-title-after {
 }
 .content-section {
     padding-top: 25px;
+    padding-bottom: 10px;
+}
+table#skills-blocks {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.skill-block {
+    text-align: center;
+    width: 33%;
+}
+
+.skill-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(/img/pca_skills_a.png);
+    margin: 10px auto;
+}
+#web-design-block {
+    background-position: 0 -80px;
+}
+#mobile-app-development-block
+{
+    background-position: 0 -160px;
+}
+.skill-name {
+    font-size: 14px;
+    color: #6e7377;
 }
