@@ -98,11 +98,10 @@ table#skills-blocks {
     background: url(/img/pca_skills_a.png);
     margin: 10px auto;
 }
-#web-design-block {
+#web-design-block .skill-icon{
     background-position: 0 -80px;
 }
-#mobile-app-development-block
-{
+#mobile-app-development-block .skill-icon {
     background-position: 0 -160px;
 }
 .skill-name {
