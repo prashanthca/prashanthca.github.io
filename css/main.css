@@ -17,24 +17,19 @@ div#header {
 }
 
 div#header-text {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    height: 84px;
+    position: relative;
+    margin-top: 70px;
     text-align: center;
 }
 
-span#header-text-subtitle {
+#header-text-subtitle {
     display: block;
     color: #868b90;
     letter-spacing: 0.1px;
     font-size: 16px;
 }
 
-span#header-text-title {
+#header-text-title {
     font-family: Montserrat;
     display: block;
     font-size: 40px;
@@ -58,4 +53,25 @@ span#header-text-title {
     font-family: Domus Titling Web;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
+    color: #475b6b;
+    position: relative;
+    margin: 20px 0px 0px 0px;
+}
+span.section-title-after {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #ca3c57;
+    border-radius: 2px;
+    margin: 11px auto;
+}
+
+.content-section.odd {
+    border-bottom: 1px solid #d4d4de;
+}
+
+.content-section.even {
+    background: #f2f6f7;
+    border-bottom: 1px solid #d4d4de;
 }
