@@ -28,6 +28,7 @@ span#header-text-subtitle {
 }
 
 span#header-text-title {
+    font-family: Montserrat;
     display: block;
     font-size: 40px;
     margin: 5px;
