@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 html, body {
     margin: 0;
     position: relative;
@@ -9,6 +13,7 @@ div#top-header-bar {background: #384855;width: 100%;height: 15px;}
 div#header {
     height: 250px;
     background: #f2f6f7;
+    border-bottom: 1px solid #d4d4de;
 }
 
 div#header-text {
@@ -18,13 +23,15 @@ div#header-text {
     left: 0;
     bottom: 0;
     margin: auto;
-    height: 100px;
+    height: 84px;
     text-align: center;
 }
 
 span#header-text-subtitle {
     display: block;
     color: #868b90;
+    letter-spacing: 0.1px;
+    font-size: 16px;
 }
 
 span#header-text-title {
@@ -35,4 +42,20 @@ span#header-text-title {
     font-weight: bold;
     text-transform: uppercase;
     color: #384855;
+    letter-spacing: 3px;
+}
+
+.wrapper
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-title
+{
+    display: block;
+    font-family: Domus Titling Web;
+    font-size: 20px;
+    text-align: center;
 }
