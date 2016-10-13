@@ -7,24 +7,26 @@ html, body {
     position: relative;
     font-family: Lato;
 }
-div#top-header-bar {background: #384855;width: 100%;height: 15px;}
+div#top-header-bar {background: #384855;width: 100%;height: 1px;}
 
 
 div#header {
-    height: 250px;
-    background: #f2f6f7;
+    height: 390px;
+    background: url(http://i.imgur.com/cYx3f0x.jpg); /*http://i.imgur.com/dAiA0tP.jpg);*/
     border-bottom: 1px solid #d4d4de;
+    background-position: 40%;
+    background-size: 100%;
 }
 
 div#header-text {
     position: relative;
-    margin-top: 70px;
+    margin-top: 150px;
     text-align: center;
 }
 
 #header-text-subtitle {
     display: block;
-    color: #868b90;
+    color: #ccc;
     letter-spacing: 0.1px;
     font-size: 16px;
 }
@@ -36,8 +38,9 @@ div#header-text {
     margin: 5px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #384855;
+    color: #eee;
     letter-spacing: 3px;
+    text-shadow: 0px 1px 3px #384342;
 }
 
 .wrapper
@@ -105,6 +108,8 @@ table#skills-blocks {
     background-position: 0 -160px;
 }
 .skill-name {
-    font-size: 16px;
+    font-size: 14px;
     color: #6e7377;
+    font-weight: bold;
+    text-transform: uppercase;
 }
