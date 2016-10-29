@@ -149,3 +149,13 @@ ul#top-header-bar-nav {
     margin-top: 13px;
     padding-bottom: 10px;
 }
+hr.content-separator {
+    margin: auto;
+    position: absolute;
+    width: 23%;
+    background: #ccc;
+    border: none;
+    height: 1px;
+    left: 0;
+    right: 0;
+}
