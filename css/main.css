@@ -141,6 +141,7 @@ ul#top-header-bar-nav {
     cursor: pointer;
 }
 #top-header-bar-nav li:hover { color: #dcdcdc;}
+
 .section-title .subtitle-text {
     font-size: 0.8em;
     font-style: italic;
@@ -149,4 +150,15 @@ ul#top-header-bar-nav {
     display: block;
     margin-top: 13px;
     padding-bottom: 10px;
+}
+hr.content-separator {
+    width: 25%;
+    margin: auto;
+    height: 1px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: absolute;
+    left:  0;
+    right: 0;
+    background: #d4d4de;
 }
