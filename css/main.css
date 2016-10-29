@@ -7,7 +7,7 @@ html, body {
     position: relative;
     font-family: Lato;
 }
-div#top-header-bar {background: #384855;width: 100%;height: 1px;}
+div#top-header-bar {background: none;width: 100%;height: 65px;}
 
 
 div#header {
@@ -20,7 +20,7 @@ div#header {
 
 div#header-text {
     position: relative;
-    margin-top: 150px;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -28,18 +28,19 @@ div#header-text {
     display: block;
     color: #ccc;
     letter-spacing: 0.1px;
-    font-size: 16px;
+    font-size: 0.96em;
+    font-style: italic;
 }
 
 #header-text-title {
     font-family: Montserrat;
     display: block;
-    font-size: 40px;
+    font-size: 2.1em;
     margin: 5px;
     font-weight: bold;
     text-transform: uppercase;
     color: #eee;
-    letter-spacing: 3px;
+    letter-spacing: 0.2em;
     text-shadow: 0px 1px 3px #384342;
 }
 
@@ -49,9 +50,10 @@ div#header-text {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 20px;
 }
-
-.section-title
+.section-title {margin:30px 0 60px 0;}
+.section-title .title-text
 {
     display: block;
     font-family: Domus Titling Web;
@@ -60,7 +62,7 @@ div#header-text {
     font-weight: bold;
     color: #475b6b;
     position: relative;
-    letter-spacing: 1.3px;
+    letter-spacing: 3px;
 }
 span.section-title-after {
     display: block;
@@ -77,7 +79,6 @@ span.section-title-after {
 
 .content-section.even {
     background: #f2f6f7;
-    border-bottom: 1px solid #d4d4de;
 }
 .content-section {
     padding-top: 25px;
@@ -112,4 +113,39 @@ table#skills-blocks {
     color: #6e7377;
     font-weight: bold;
     text-transform: uppercase;
+}
+div#top-header-bar-name {
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    font-family: Montserrat;
+    color: #ddd;
+    float: left;
+    margin: 25px 30px;
+}
+
+ul#top-header-bar-nav {
+    float: right;
+    padding: 0;
+    list-style: none;
+    margin: 25px 30px 25px;
+}
+
+#top-header-bar-nav li {
+    display: inline;
+    margin: 0 20px;
+    font-family: Montserrat;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+.section-title .subtitle-text {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+    text-align: center;
+    display: block;
+    margin-top: 13px;
+    padding-bottom: 10px;
 }
