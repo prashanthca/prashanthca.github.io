@@ -15,7 +15,7 @@ div#header {
     background: url(http://i.imgur.com/cYx3f0x.jpg); /*http://i.imgur.com/dAiA0tP.jpg);*/
     border-bottom: 1px solid #d4d4de;
     background-position: 40%;
-    background-size: 100%;
+    background-size: cover;
 }
 
 div#header-text {
@@ -138,8 +138,9 @@ ul#top-header-bar-nav {
     text-transform: uppercase;
     font-size: .9em;
     letter-spacing: 1px;
+    cursor: pointer;
 }
-
+#top-header-bar-nav li:hover { color: #dcdcdc;}
 .section-title .subtitle-text {
     font-size: 0.8em;
     font-style: italic;
@@ -148,14 +149,4 @@ ul#top-header-bar-nav {
     display: block;
     margin-top: 13px;
     padding-bottom: 10px;
-}
-hr.content-separator {
-    margin: auto;
-    position: absolute;
-    width: 23%;
-    background: #ccc;
-    border: none;
-    height: 1px;
-    left: 0;
-    right: 0;
 }
