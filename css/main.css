@@ -1,499 +1,365 @@
 * {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
 }
-html, body {
-    margin: 0;
-    position: relative;
-    font-family: Lato;
-}
-div#top-header-bar {background: none;width: 100%;height: 65px;}
 
+html,body {
+font-family:Lato;
+margin:0;
+position:relative;
+}
+
+div#top-header-bar {
+background:none;
+height:65px;
+width:100%;
+}
 
 div#header {
-    height: 390px;
-    background: url(http://i.imgur.com/cYx3f0x.jpg); /*http://i.imgur.com/dAiA0tP.jpg);*/
-    border-bottom: 1px solid #d4d4de;
-    background-position: 40%;
-    background-size: cover;
+background:url(http://i.imgur.com/cYx3f0x.jpg);
+background-position:40%;
+background-size:cover;
+border-bottom:1px solid #d4d4de;
+height:390px;
 }
 
 div#header-text {
-    position: relative;
-    margin-top: 80px;
-    text-align: center;
+margin-top:80px;
+position:relative;
+text-align:center;
 }
 
 #header-text-subtitle {
-    display: block;
-    color: #ccc;
-    letter-spacing: 0.1px;
-    font-size: 0.85em;
-    font-style: italic;
-    margin: 10px 0;
+color:#ccc;
+display:block;
+font-size:.96em;
+font-style:italic;
+letter-spacing:.1px;
+margin:10px 0;
 }
 
 #header-text-title {
-    font-family: Montserrat;
-    display: block;
-    font-size: 2.1em;
-    margin: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #eee;
-    letter-spacing: 0.2em;
-    text-shadow: 0px 1px 3px #384342;
+color:#eee;
+display:block;
+font-family:Montserrat;
+font-size:2.1em;
+font-weight:700;
+letter-spacing:.2em;
+margin:5px;
+text-shadow:0 1px 3px #384342;
+text-transform:uppercase;
 }
 
-.wrapper
-{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 20px;
+.wrapper {
+margin:0 auto;
+max-width:1280px;
+padding-bottom:20px;
+position:relative;
+width:100%;
 }
-.section-title {margin:30px 0 60px 0;}
-.section-title .title-text
-{
-    display: block;
-    font-family: Domus Titling Web;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: #475b6b;
-    position: relative;
-    letter-spacing: 3px;
+
+.section-title {
+margin:30px 0 60px;
 }
+
+.section-title .title-text {
+color:#475b6b;
+display:block;
+font-family:Domus Titling Web;
+font-size:20px;
+font-weight:700;
+letter-spacing:3px;
+position:relative;
+text-align:center;
+}
+
 span.section-title-after {
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #ca3c57;
-    border-radius: 5px;
-    margin: 11px auto;
+background:#ca3c57;
+border-radius:5px;
+display:block;
+height:3px;
+margin:11px auto;
+width:50px;
 }
 
 .content-section.odd {
-    border-bottom: 1px solid #d4d4de;
+border-bottom:1px solid #d4d4de;
 }
 
 .content-section.even {
-    background: #f2f6f7;
+background:#f2f6f7;
 }
+
 .content-section {
-    padding-top: 25px;
-    padding-bottom: 10px;
+padding-bottom:10px;
+padding-top:25px;
 }
+
 table#skills-blocks {
-    width: 65%;
-    border-collapse: collapse;
-    margin: 30px auto;
+border-collapse:collapse;
+margin:30px auto;
+width:65%;
 }
 
 .skill-block {
-    text-align: center;
-    width: 33%;
+text-align:center;
+width:33%;
 }
 
 .skill-icon {
-    display: block;
-    width: 80px;
-    height: 80px;
-    background: url(/img/pca_skills_a.png);
-    margin: 10px auto;
+background:url(/img/pca_skills_a.png);
+display:block;
+height:80px;
+margin:10px auto;
+width:80px;
 }
-#web-design-block .skill-icon{
-    background-position: 0 -80px;
+
+#web-design-block .skill-icon {
+background-position:0 -80px;
 }
+
 #mobile-app-development-block .skill-icon {
-    background-position: 0 -160px;
+background-position:0 -160px;
 }
+
 .skill-name {
-    font-size: 14px;
-    color: #6e7377;
-    font-weight: bold;
-    text-transform: uppercase;
+color:#6e7377;
+font-size:14px;
+font-weight:700;
+text-transform:uppercase;
 }
+
 div#top-header-bar-name {
-    text-transform: uppercase;
-    letter-spacing: .09em;
-    font-family: Montserrat;
-    color: #ddd;
-    float: left;
-    margin: 25px 30px;
+color:#ddd;
+float:left;
+font-family:Montserrat;
+letter-spacing:.09em;
+margin:25px 30px;
+text-transform:uppercase;
 }
 
 ul#top-header-bar-nav {
-    float: right;
-    padding: 0;
-    list-style: none;
-    margin: 25px 30px 25px;
+float:right;
+list-style:none;
+margin:25px 30px;
+padding:0;
 }
 
 #top-header-bar-nav li {
-    display: inline;
-    margin: 0 20px;
-    font-family: Montserrat;
-    color: #ccc;
-    text-transform: uppercase;
-    font-size: .75em;
-    letter-spacing: 1px;
-    cursor: pointer;
+color:#ccc;
+cursor:pointer;
+display:inline;
+font-family:Montserrat;
+font-size:.75em;
+letter-spacing:1px;
+margin:0 20px;
+text-transform:uppercase;
 }
-#top-header-bar-nav li:hover { color: #dcdcdc;}
+
+#top-header-bar-nav li:hover {
+color:#dcdcdc;
+}
 
 .section-title .subtitle-text {
-    font-size: 0.8em;
-    font-style: italic;
-    color: #777;
-    text-align: center;
-    display: block;
-    margin-top: 13px;
-    padding-bottom: 10px;
+color:#777;
+display:block;
+font-size:.8em;
+font-style:italic;
+margin-top:13px;
+padding-bottom:10px;
+text-align:center;
 }
+
 hr.content-separator {
-    width: 25%;
-    margin: auto;
-    height: 2px;
-    border: none;
-    border-bottom: 1px solid #eee;
-    position: absolute;
-    left:  0;
-    right: 0;
-    background: #d4d4de;
-}
-* {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-html, body {
-    margin: 0;
-    position: relative;
-    font-family: Lato;
-}
-div#top-header-bar {background: none;width: 100%;height: 65px;}
-
-
-div#header {
-    height: 390px;
-    background: url(http://i.imgur.com/cYx3f0x.jpg); /*http://i.imgur.com/dAiA0tP.jpg);*/
-    border-bottom: 1px solid #d4d4de;
-    background-position: 40%;
-    background-size: cover;
+background:#d4d4de;
+border:none;
+border-bottom:1px solid #eee;
+height:2px;
+left:0;
+margin:auto;
+position:absolute;
+right:0;
+width:25%;
 }
 
-div#header-text {
-    position: relative;
-    margin-top: 80px;
-    text-align: center;
-}
-
-#header-text-subtitle {
-    display: block;
-    color: #ccc;
-    letter-spacing: 0.1px;
-    font-size: 0.96em;
-    font-style: italic;
-}
-
-#header-text-title {
-    font-family: Montserrat;
-    display: block;
-    font-size: 2.1em;
-    margin: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #eee;
-    letter-spacing: 0.2em;
-    text-shadow: 0px 1px 3px #384342;
-}
-
-.wrapper
-{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 20px;
-}
-.section-title {margin:30px 0 60px 0;}
-.section-title .title-text
-{
-    display: block;
-    font-family: Domus Titling Web;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: #475b6b;
-    position: relative;
-    letter-spacing: 3px;
-}
-span.section-title-after {
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #ca3c57;
-    border-radius: 5px;
-    margin: 11px auto;
-}
-
-.content-section.odd {
-    border-bottom: 1px solid #d4d4de;
-}
-
-.content-section.even {
-    background: #f2f6f7;
-}
-.content-section {
-    padding-top: 25px;
-    padding-bottom: 10px;
-}
-table#skills-blocks {
-    width: 65%;
-    border-collapse: collapse;
-    margin: 30px auto;
-}
-
-.skill-block {
-    text-align: center;
-    width: 33%;
-}
-
-.skill-icon {
-    display: block;
-    width: 80px;
-    height: 80px;
-    background: url(/img/pca_skills_a.png);
-    margin: 10px auto;
-}
-#web-design-block .skill-icon{
-    background-position: 0 -80px;
-}
-#mobile-app-development-block .skill-icon {
-    background-position: 0 -160px;
-}
-.skill-name {
-    font-size: 14px;
-    color: #6e7377;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-div#top-header-bar-name {
-    text-transform: uppercase;
-    letter-spacing: .09em;
-    font-family: Montserrat;
-    color: #ddd;
-    float: left;
-    margin: 25px 30px;
-}
-
-ul#top-header-bar-nav {
-    float: right;
-    padding: 0;
-    list-style: none;
-    margin: 25px 30px 25px;
-}
-
-#top-header-bar-nav li {
-    display: inline;
-    margin: 0 20px;
-    font-family: Montserrat;
-    color: #ccc;
-    text-transform: uppercase;
-    font-size: .75em;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-#top-header-bar-nav li:hover { color: #dcdcdc;}
-
-.section-title .subtitle-text {
-    font-size: 0.8em;
-    font-style: italic;
-    color: #777;
-    text-align: center;
-    display: block;
-    margin-top: 13px;
-    padding-bottom: 10px;
-}
-hr.content-separator {
-    width: 25%;
-    margin: auto;
-    height: 2px;
-    border: none;
-    border-bottom: 1px solid #eee;
-    position: absolute;
-    left:  0;
-    right: 0;
-    background: #d4d4de;
-}#portfolio-items {
-    width: 100%;
-    border-collapse: separate;
-    height: 250px;
-    align-items: center;
-    max-width: 1170px;
-    margin: 0 auto;
+#portfolio-items {
+align-items:center;
+border-collapse:separate;
+height:250px;
+margin:0 auto;
+max-width:1170px;
+width:100%;
 }
 
 #portfolio-items .portfolio-item {
-    width: 250px;
-    position: relative;
-    padding: 0;
-    float: left;
-    height: 250px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 6px #ddd;
-    border-radius: 3px;
-    margin: 20px;
-    cursor: pointer;
+border:1px solid #ccc;
+border-radius:3px;
+box-shadow:0 0 6px #ddd;
+cursor:pointer;
+float:left;
+height:250px;
+margin:20px;
+padding:0;
+position:relative;
+width:250px;
 }
 
 #portfolio-items tr {
-    height: 250px;
+height:250px;
 }
 
 span.portfolio-item-image {
-    position: absolute;
-    display: block;
-    z-index: 1;
-    margin: 1px;
-    width: 247px;
-    height: 247px;
-    background-repeat: no-repeat;
-    border: 5px solid #fff;
-    border-radius: 3px;
+background-repeat:no-repeat;
+border:5px solid #fff;
+border-radius:3px;
+display:block;
+height:247px;
+margin:1px;
+position:absolute;
+width:247px;
+z-index:1;
 }
+
 .portfolio-item-hover {
-    position: absolute;
-    display: none;
-    width: 238px;
-    height: 239px;
-    z-index: 1;
-    top: 0;
-    background: rgba(35, 139, 171, 0.46);
-    margin: 5px;
+background:rgba(35,139,171,0.46);
+display:none;
+height:239px;
+margin:5px;
+position:absolute;
+top:0;
+width:238px;
+z-index:1;
 }
 
 #portfolio-items #eventscell .portfolio-item-image {
-    background-image: url(/img/portfolios/eventscell.png);
-    background-size: 100%;
-    top: 0;
+background-image:url(/img/portfolios/eventscell.png);
+background-size:100%;
+top:0;
 }
+
 #portfolio-items #charity-site .portfolio-item-image {
-    background-image: url(/img/portfolios/charity-site.png);
-    background-size: 100%;
+background-image:url(/img/portfolios/charity-site.png);
+background-size:100%;
 }
+
 #portfolio-items #bsi .portfolio-item-image {
-    background-image: url(/img/portfolios/bsi.png);
-    background-size: 100%;
+background-image:url(/img/portfolios/bsi.png);
+background-size:100%;
 }
+
 #portfolio-items #derextech .portfolio-item-image {
-    background-image: url(/img/portfolios/derextech.png);
-    background-size: 100%;
+background-image:url(/img/portfolios/derextech.png);
+background-size:100%;
 }
+
 .portfolio-item-hover-text {
-    background: #f6f6f6;
-    display: block;
-    margin: auto 15px;
-    position: absolute;
-    width: 210px;
-    bottom: 15px;
-    text-align: center;
-    padding: 20px;
-    border-radius: 2px;
+background:#f6f6f6;
+border-radius:2px;
+bottom:15px;
+display:block;
+margin:auto 15px;
+padding:20px;
+position:absolute;
+text-align:center;
+width:210px;
 }
+
 .portfolio-item-hover-text-title {
-    font-weight: bold;
-    color: #666;
-    font-style: normal;
-    display: block;
-    font-family: Montserrat;
+color:#666;
+display:block;
+font-family:Montserrat;
+font-style:normal;
+font-weight:700;
 }
+
 .portfolio-item-hover-text-subtitle {
-    font-size: 13px;
-    font-style: italic;
-    color: #aaa;
-    display: block;
-    margin-top: 5px;
+color:#aaa;
+display:block;
+font-size:13px;
+font-style:italic;
+margin-top:5px;
 }
+
 div#about_me_container {
-    width: 30%;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 4px #ddd;
-    margin: 0 auto 20px auto;
-    border-radius: 5px;
+background:#fff;
+border:1px solid #ccc;
+border-radius:5px;
+box-shadow:0 0 4px #ddd;
+margin:0 auto 20px;
+width:30%;
 }
 
 div#about_me_logo {
-    width: 100%;
-    height: 130px;
-    position:relative;
-    background: url(/img/about_me_bg.jpg);
-    border-radius: 4px 4px 0px 0px;
-    background-size: cover;
-    background-position: 50%;
+background:url(/img/about_me_bg.jpg);
+background-position:50%;
+background-size:cover;
+border-radius:4px 4px 0 0;
+height:130px;
+position:relative;
+width:100%;
 }
 
 div#about_me_text {
-    padding: 30px 40px;
-    line-height: 23px;
-    font-size: 14px;
-    text-align: center;
-    color: #444;
+color:#444;
+font-size:14px;
+line-height:23px;
+padding:30px 40px;
+text-align:center;
 }
 
 div#about_me_text a {
-    color: #333;
-    font-weight: bold;
-    text-decoration: none;
+color:#333;
+font-weight:700;
+text-decoration:none;
 }
+
 span#about_me_logo_img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: auto;
-    background: url("/img/p_logo_128_plain.png");
-    background-size: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+background:url(/img/p_logo_128_plain.png);
+background-size:100%;
+bottom:0;
+display:block;
+height:100px;
+left:0;
+margin:auto;
+position:absolute;
+right:0;
+top:0;
+width:100px;
 }
+
 div#popup_container {
-    display:none;
-    position: absolute;
-    z-index: 444;
-    background: rgba(35, 139, 171, 0.46);
-    width: 100%;
-    height: 100%;
+background:rgba(35,139,171,0.46);
+display:none;
+height:100%;
+position:absolute;
+width:100%;
+z-index:444;
 }
 
 div#portfolio_item_details {
-    width: 60%;
-    background: #fff;
-    border: 1px solid rgb(35, 139, 171);
-    border-radius: 3px;
-    margin: 50px auto;
-    position: fixed;
-    left: 0;
-    right: 0;
+background:#fff;
+border:1px solid #238bab;
+border-radius:3px;
+left:0;
+margin:50px auto;
+position:fixed;
+right:0;
+width:60%;
 }
 
 div#portfolio_item_details_info {
-    height: 270px;
-    position: relative;
-    padding: 50px 30px;
+height:270px;
+padding:50px 30px;
+position:relative;
 }
 
 #portfolio_item_details_info .image {
-    width: 225px;
-    height: 150px;
-    border: 1px solid #ccc;
-    display: block;
-    border-radius: 3px;
-    margin: 0px 20px;
-    box-shadow: 0px 0px 3px #eee;
-    padding: 5px;
+border:1px solid #ccc;
+border-radius:3px;
+box-shadow:0 0 3px #eee;
+display:block;
+height:150px;
+margin:0 20px;
+padding:5px;
+width:225px;
 }
