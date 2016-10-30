@@ -301,7 +301,7 @@ ul#top-header-bar-nav {
     font-family: Montserrat;
     color: #ccc;
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: .75em;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -363,13 +363,15 @@ span.portfolio-item-image {
     border: 5px solid #fff;
     border-radius: 3px;
 }
-span.portfolio-item-hover {
+.portfolio-item-hover {
     position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
+    display: none;
+    width: 238px;
+    height: 239px;
     z-index: 1;
     top: 0;
+    background: rgba(35, 139, 171, 0.46);
+    margin: 5px;
 }
 
 #portfolio-items #eventscell .portfolio-item-image {
@@ -388,4 +390,29 @@ span.portfolio-item-hover {
 #portfolio-items #derextech .portfolio-item-image {
     background-image: url(/img/portfolios/derextech.png);
     background-size: 100%;
+}
+.portfolio-item-hover-text {
+    background: #f6f6f6;
+    display: block;
+    margin: auto 15px;
+    position: absolute;
+    width: 210px;
+    bottom: 15px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+}
+.portfolio-item-hover-text-title {
+    font-weight: bold;
+    color: #666;
+    font-style: normal;
+    display: block;
+    font-family: Montserrat;
+}
+.portfolio-item-hover-text-subtitle {
+    font-size: 13px;
+    font-style: italic;
+    color: #aaa;
+    display: block;
+    margin-top: 5px;
 }
