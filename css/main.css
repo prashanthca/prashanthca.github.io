@@ -428,10 +428,11 @@ div#about_me_container {
 div#about_me_logo {
     width: 100%;
     height: 130px;
-    background: url(/img/about_me_bg.png);
+    background: url(/img/about_me_bg.jpg);
     border-radius: 4px 4px 0px 0px;
     background-size: cover;
     background-position: 50%;
+    position: relative;
 }
 
 div#about_me_text {
@@ -446,4 +447,18 @@ div#about_me_text a {
     color: #333;
     font-weight: bold;
     text-decoration: none;
+}
+
+span#about_me_logo_img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background: url("/img/p_logo_128_plain.png");
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
