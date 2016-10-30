@@ -192,3 +192,20 @@ span.portfolio-item-hover {
     height: 100%;
     z-index: 1;
 }
+
+#portfolio-items #eventscell .portfolio-item-image {
+    background-image: url(/img/portfolios/eventscell.png);
+    background-size: 100%;
+}
+#portfolio-items #charity-site .portfolio-item-image {
+    background-image: url(/img/portfolios/charity-site.png);
+    background-size: 100%;
+}
+#portfolio-items #bsi .portfolio-item-image {
+    background-image: url(/img/portfolios/bsi.png);
+    background-size: 100%;
+}
+#portfolio-items #derextech .portfolio-item-image {
+    background-image: url(/img/portfolios/derextech.png);
+    background-size: 100%;
+}
