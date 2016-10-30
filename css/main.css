@@ -28,8 +28,9 @@ div#header-text {
     display: block;
     color: #ccc;
     letter-spacing: 0.1px;
-    font-size: 0.96em;
+    font-size: 0.85em;
     font-style: italic;
+    margin: 10px 0;
 }
 
 #header-text-title {
@@ -136,7 +137,7 @@ ul#top-header-bar-nav {
     font-family: Montserrat;
     color: #ccc;
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: .75em;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -161,4 +162,33 @@ hr.content-separator {
     left:  0;
     right: 0;
     background: #d4d4de;
+}
+#portfolio-items {
+    width: 100%;
+    border-collapse: separate;
+}
+
+#portfolio-items .portfolio-item {
+    width: 250px;
+    height: 100%;
+    position: relative;
+}
+
+#portfolio-items tr {
+    height: 250px;
+}
+
+span.portfolio-item-image {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+span.portfolio-item-hover {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
