@@ -154,7 +154,7 @@ ul#top-header-bar-nav {
 hr.content-separator {
     width: 25%;
     margin: auto;
-    height: 1px;
+    height: 2px;
     border: none;
     border-bottom: 1px solid #eee;
     position: absolute;
