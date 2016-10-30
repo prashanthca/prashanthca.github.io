@@ -163,15 +163,189 @@ hr.content-separator {
     right: 0;
     background: #d4d4de;
 }
-#portfolio-items {
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    position: relative;
+    font-family: Lato;
+}
+div#top-header-bar {background: none;width: 100%;height: 65px;}
+
+
+div#header {
+    height: 390px;
+    background: url(http://i.imgur.com/cYx3f0x.jpg); /*http://i.imgur.com/dAiA0tP.jpg);*/
+    border-bottom: 1px solid #d4d4de;
+    background-position: 40%;
+    background-size: cover;
+}
+
+div#header-text {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#header-text-subtitle {
+    display: block;
+    color: #ccc;
+    letter-spacing: 0.1px;
+    font-size: 0.96em;
+    font-style: italic;
+}
+
+#header-text-title {
+    font-family: Montserrat;
+    display: block;
+    font-size: 2.1em;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eee;
+    letter-spacing: 0.2em;
+    text-shadow: 0px 1px 3px #384342;
+}
+
+.wrapper
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+.section-title {margin:30px 0 60px 0;}
+.section-title .title-text
+{
+    display: block;
+    font-family: Domus Titling Web;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #475b6b;
+    position: relative;
+    letter-spacing: 3px;
+}
+span.section-title-after {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ca3c57;
+    border-radius: 5px;
+    margin: 11px auto;
+}
+
+.content-section.odd {
+    border-bottom: 1px solid #d4d4de;
+}
+
+.content-section.even {
+    background: #f2f6f7;
+}
+.content-section {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+table#skills-blocks {
+    width: 65%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.skill-block {
+    text-align: center;
+    width: 33%;
+}
+
+.skill-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(/img/pca_skills_a.png);
+    margin: 10px auto;
+}
+#web-design-block .skill-icon{
+    background-position: 0 -80px;
+}
+#mobile-app-development-block .skill-icon {
+    background-position: 0 -160px;
+}
+.skill-name {
+    font-size: 14px;
+    color: #6e7377;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div#top-header-bar-name {
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    font-family: Montserrat;
+    color: #ddd;
+    float: left;
+    margin: 25px 30px;
+}
+
+ul#top-header-bar-nav {
+    float: right;
+    padding: 0;
+    list-style: none;
+    margin: 25px 30px 25px;
+}
+
+#top-header-bar-nav li {
+    display: inline;
+    margin: 0 20px;
+    font-family: Montserrat;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#top-header-bar-nav li:hover { color: #dcdcdc;}
+
+.section-title .subtitle-text {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+    text-align: center;
+    display: block;
+    margin-top: 13px;
+    padding-bottom: 10px;
+}
+hr.content-separator {
+    width: 25%;
+    margin: auto;
+    height: 2px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: absolute;
+    left:  0;
+    right: 0;
+    background: #d4d4de;
+}#portfolio-items {
     width: 100%;
     border-collapse: separate;
+    height: 250px;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 #portfolio-items .portfolio-item {
     width: 250px;
-    height: 100%;
     position: relative;
+    padding: 0;
+    float: left;
+    height: 250px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 6px #ddd;
+    border-radius: 3px;
+    margin: 20px;
+    cursor: pointer;
 }
 
 #portfolio-items tr {
@@ -181,9 +355,13 @@ hr.content-separator {
 span.portfolio-item-image {
     position: absolute;
     display: block;
-    width: 100%;
-    height: 100%;
     z-index: 1;
+    margin: 1px;
+    width: 247px;
+    height: 247px;
+    background-repeat: no-repeat;
+    border: 5px solid #fff;
+    border-radius: 3px;
 }
 span.portfolio-item-hover {
     position: absolute;
@@ -191,11 +369,13 @@ span.portfolio-item-hover {
     width: 100%;
     height: 100%;
     z-index: 1;
+    top: 0;
 }
 
 #portfolio-items #eventscell .portfolio-item-image {
     background-image: url(/img/portfolios/eventscell.png);
     background-size: 100%;
+    top: 0;
 }
 #portfolio-items #charity-site .portfolio-item-image {
     background-image: url(/img/portfolios/charity-site.png);
