@@ -73,14 +73,7 @@ position:relative;
 text-align:center;
 }
 
-span.section-title-after {
-background:#ca3c57;
-border-radius:5px;
-display:block;
-height:3px;
-margin:11px auto;
-width:50px;
-}
+span.section-title-after {background: #ca3c57;border-radius:5px;display:block;height:3px;margin:11px auto;width:50px;}
 
 .content-section.odd {
 border-bottom:1px solid #d4d4de;
@@ -95,16 +88,9 @@ padding-bottom:10px;
 padding-top:25px;
 }
 
-table#skills-blocks {
-border-collapse:collapse;
-margin:30px auto;
-width:65%;
-}
+table#skills-blocks {border-collapse:separate;margin:30px auto;width: 100%;text-align: center;}
 
-.skill-block {
-text-align:center;
-width:33%;
-}
+.skill-block {text-align:center;width: 300px;padding: 40px 20px;display: inline-block;background:#fff;border-radius:5px;box-shadow: 0 2px 4px #eee;margin: 10px;border: 1px solid #dedede;}
 
 .skill-icon {
 background:url(/img/pca_skills_a.png);
@@ -122,12 +108,7 @@ background-position:0 -80px;
 background-position:0 -160px;
 }
 
-.skill-name {
-color:#6e7377;
-font-size:14px;
-font-weight:700;
-text-transform:uppercase;
-}
+.skill-name {color: #555;font-size: 13px;font-weight: 400;text-transform:uppercase;font-family: Montserrat;margin: 20px 0 15px 0;display: block;}
 
 div#top-header-bar-name {
 color:#ddd;
@@ -280,14 +261,7 @@ font-style:italic;
 margin-top:5px;
 }
 
-div#about_me_container {
-background:#fff;
-border:1px solid #ccc;
-border-radius:5px;
-box-shadow:0 0 4px #ddd;
-margin:0 auto 20px;
-width:500px;
-}
+div#about_me_container {background:#fff;border:1px solid #ccc;border-radius:5px;box-shadow: 0 2px 4px #ddd;margin:0 auto 20px;width:500px;}
 
 div#about_me_logo {
 background:url(/img/about_me_bg.jpg);
@@ -362,4 +336,29 @@ height:150px;
 margin:0 20px;
 padding:5px;
 width:225px;
+}
+#header-text .section-title-after {
+    margin: 25px auto;
+    width: 100px;
+}
+
+.skill-block .section-title-after {
+    height: 2px;
+    background: #ca6377;
+    margin-top: 17px;
+    width: 50px;
+}
+
+span.skill-text {
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    margin-top: 19px;
+    line-height: 25px;
+    padding: 0px 10px;
+    color: #666;
+}
+
+td#mobile-app-development-block .skill-text {
+    padding: 0px 0;
 }
