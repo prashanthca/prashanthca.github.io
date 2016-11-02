@@ -362,3 +362,82 @@ span.skill-text {
 td#mobile-app-development-block .skill-text {
     padding: 0px 0;
 }
+
+div#contact_me_form {
+    width: 840px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px #eee;
+    position: relative;
+}
+
+.text_row .text_box {
+    display: inline;
+    padding: 12px 12px 16px 12px;
+    border: none;
+    background: none;
+    font-size: 13px;
+    font-family: Lato;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    width: 100%;
+    resize: none;
+    transition: border-color 0.218s;
+}
+
+.text_box:focus {
+    font-style: normal;
+    outline: none;
+    border-color: #ca3c57;
+}
+
+.text_row {
+    width: 100%;
+}
+
+.text_row label {
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #444;
+    margin-left: 10px;
+}
+
+.text_group {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-top: 22px;
+    position: relative;
+}
+
+.text_group.single {
+    width: 100%;
+}
+
+label.required_text_box::after {
+    content: '*';
+    color: #ca3c57;
+    font-size: 18px;
+    float: right;
+    margin-top: -3px;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+
+button#c_form_submit {
+    float: right;
+    margin: 15px 20px 5px 20px;
+    border: none;
+    background: none;
+}
+
+button#c_form_submit::after {
+    font-family: FontAwesome;
+    content: '\f1d9';
+}
