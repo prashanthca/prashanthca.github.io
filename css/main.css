@@ -429,15 +429,35 @@ label.required_text_box::after {
     margin-left: 1px;
 }
 
-
-button#c_form_submit {
-    float: right;
-    margin: 15px 20px 5px 20px;
+#c_form_submit {
+    display: block;
+    margin: 15px auto 5px auto;
     border: none;
     background: none;
+    color: #eee;
+    font-size: 16px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #ca3c57;
+    border: 1px solid #af354c;
+    padding: 10px 50px;
+    border-radius: 3px;
+    transition: all 0.218s;
+    outline: none;
 }
-
+#c_form_submit:hover {
+    box-shadow: 0px 2px 4px #c1a1b1;
+    outline: none;
+}
+#c_form_submit:active {
+    box-shadow: inset 0px 0px 5px  #af354c;
+}
 button#c_form_submit::after {
     font-family: FontAwesome;
     content: '\f1d9';
+    margin-top: 2px;
+    float: right;
+    margin-left: 10px;
+    font-size: 14px;
 }
