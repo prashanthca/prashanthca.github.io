@@ -301,42 +301,11 @@ top:0;
 width:100px;
 }
 
-div#popup_container {
-background:rgba(35,139,171,0.46);
-display:none;
-height:100%;
-position:absolute;
-width:100%;
-z-index:444;
-}
+div#popup_container {background:rgba(35,139,171,0.46);display:none;height:100%;position:absolute;width:100%;z-index:444;}
 
-div#portfolio_item_details {
-background:#fff;
-border:1px solid #238bab;
-border-radius:3px;
-left:0;
-margin:50px auto;
-position:fixed;
-right:0;
-width:60%;
-}
+div#portfolio_item_details_info {height: 231px;padding: 0;position:relative;border-bottom: 1px solid #ddd;}
 
-div#portfolio_item_details_info {
-height:270px;
-padding:50px 30px;
-position:relative;
-}
-
-#portfolio_item_details_info .image {
-border:1px solid #ccc;
-border-radius:3px;
-box-shadow:0 0 3px #eee;
-display:block;
-height:150px;
-margin:0 20px;
-padding:5px;
-width:225px;
-}
+#portfolio_item_details_info .image {border:1px solid #ccc;border-radius:3px;box-shadow:0 0 3px #eee;display:block;height:150px;margin: 40px 40px;padding:5px;width:225px;float: left;}
 #header-text .section-title-after {
     margin: 25px auto;
     width: 100px;
@@ -460,4 +429,47 @@ button#c_form_submit::after {
     float: right;
     margin-left: 10px;
     font-size: 14px;
+}
+
+div#portfolio_item_details_container {
+    background: #fff;
+    border: 1px solid #238bab;
+    border-radius: 3px;
+    left: 0;
+    margin: 50px auto;
+    position: absolute;
+    right: 0;
+    width: 60%;
+}
+
+
+.image_desc {
+    float: left;
+    width: 500px;
+    margin: 43px 0px;
+}
+
+span.image_desc_title {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Montserrat;
+    letter-spacing: 0.02em;
+    color: #444;
+}
+
+.image_desc_link a {
+    color: #777;
+    text-decoration: none;
+    display: block;
+    margin: 2px 1px;
+}
+
+.image_desc_text {
+    font-size: 0.94em;
+    color: #333;
+}
+
+div#portfolio_item_details_ss {
+    height: 500px;
 }
