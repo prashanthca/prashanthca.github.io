@@ -489,7 +489,7 @@ div#portfolio_ss_slideshow {
     position: absolute;
     margin: 10px 10px 0 0;
     display: block;
-    background: url(//ia.media-imdb.com/images/G/01/imdb/images/mobile/mobile_sprite-3966822794._V_.png) no-repeat -330px -77px;
+    background: url(/img/mobile_sprite.png) no-repeat -330px -77px;
     cursor: pointer;
     opacity: 0.8;
     transition: opacity 0.218s;
