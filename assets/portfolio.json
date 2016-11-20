@@ -1,0 +1,23 @@
+{
+	"eventscell":{
+		"name":"EventsCell.com",
+		"link":"http://eventscell.com",
+		"desc":"",
+		"ss": "eventscell_ss"
+	}, "bsi": {
+		"name":"Building Stock Inventory",
+		"link":"",
+		"desc":"",
+		"ss": "bsi_ss"
+	}, "charity": {
+		"name":"EventsCell.com",
+		"link":"",
+		"desc":"",
+		"ss": "charity_ss"
+	}, "derextech":{
+		"name":"DerexTech.com",
+		"link":"http://derextech.com",
+		"desc":"",
+		"ss": "derextech_ss"
+	}
+}
