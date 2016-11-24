@@ -26,4 +26,22 @@ $(document).ready(function(){
 			scrollTop: $("#"+$(this).attr("tar")).offset().top
 		}, 2000);
 	});
+	$("#c_form_submit").click(function(){
+		if($.grep($("#contact_me_form .required_text_box"), function(item){ if($(item).next().val()) return true; return false; }).length != $("#contact_me_form .required_text_box").length) return false;
+		var structData = {};
+		$("#contact_me_form .text_box").each(function(){
+			structData[$(this).attr("name")] = $(this).val();
+		});
+		$.ajax({
+			url:"https://script.google.com/macros/s/AKfycbzhTTenX7YxRodvtHgJ1S9HtZD7rjoLqmUHypQok7fENCiiXtpH/exec",
+			type:"POST",
+			data: structData,
+			beforeSend: function(){
+				$("#c_form_submit").text("Sending");
+			},
+			success: function(data){
+				$("#c_form_submit").text("Send");
+			}
+		});
+	});
 });
