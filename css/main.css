@@ -501,6 +501,7 @@ div#portfolio_ss_slideshow {
 }
 div#footer {
     background: #f2f6f7;
+    padding-top: 20px;
 }
 
 #footer #footer-logo {
@@ -510,4 +511,20 @@ div#footer {
     height: 50px;
     background: url(/img/p_logo_128_dark.png) no-repeat;
     background-size: 100%;
+}
+#footer #footer-logo::before {
+    content: '';
+    height: 1px;
+    background: #bbb;
+    width: 100px;
+    position: absolute;
+    left: -100px;
+}
+#footer #footer-logo::after {
+    content: '';
+    height: 1px;
+    background: #bbb;
+    width: 100px;
+    position: absolute;
+    right: -100px;
 }
