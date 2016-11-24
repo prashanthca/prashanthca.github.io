@@ -499,3 +499,15 @@ div#portfolio_ss_slideshow {
 {
     opacity: 1;
 }
+div#footer {
+    background: #f2f6f7;
+}
+
+#footer #footer-logo {
+    padding: 80px;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background: url(/img/p_logo_128_dark.png) no-repeat;
+    background-size: 100%;
+}

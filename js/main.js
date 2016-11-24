@@ -27,7 +27,10 @@ $(document).ready(function(){
 		}, 2000);
 	});
 	$("#c_form_submit").click(function(){
-		if($.grep($("#contact_me_form .required_text_box"), function(item){ if($(item).next().val()) return true; return false; }).length != $("#contact_me_form .required_text_box").length) return false;
+		if($.grep($("#contact_me_form .required_text_box"), function(item){ if($(item).next().val()) return true; return false; }).length != $("#contact_me_form .required_text_box").length) {
+			alert("Please enter all the required fields");
+			return false;
+		}
 		var structData = {};
 		$("#contact_me_form .text_box").each(function(){
 			structData[$(this).attr("name")] = $(this).val();
@@ -41,6 +44,7 @@ $(document).ready(function(){
 			},
 			success: function(data){
 				$("#c_form_submit").text("Send");
+				$("#contact_me_form .text_box").each(function(){ $(this).val(""); });
 			}
 		});
 	});
