@@ -233,6 +233,16 @@ background-image:url(/img/portfolios/derextech.png);
 background-size:100%;
 }
 
+#portfolio-items #prgroups .portfolio-item-image {
+background-image:url(/img/portfolios/prgroups.png);
+background-size:100%;
+}
+
+#portfolio-items #invictolimited .portfolio-item-image {
+background-image:url(/img/portfolios/invictolimited.png);
+background-size:100%;
+}
+
 .portfolio-item-hover-text {
 background:#f6f6f6;
 border-radius:2px;
