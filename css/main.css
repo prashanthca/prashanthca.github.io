@@ -28,7 +28,7 @@ html,body {
 }
 
 #header {
-	background: url(/img/bg.jpg);
+	background: url(/img/about_me_bg.jpg);
 	background-position: 40%;
 	background-size: cover;
 	border-bottom: 1px solid #d4d4de;
