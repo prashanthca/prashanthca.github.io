@@ -9,18 +9,21 @@ $(document).ready(function(){
 	$("#portfolio-items .portfolio-item").click(function(){
 		var id = $(this).attr("id");
 		var details = portfolios[id];
-		$("#popup_container").empty().append("<span id='popup_close'></span><div class='wrapper' id='portfolio_item_details_container'><div id='portfolio_item_details'><div id='portfolio_item_details_info'><span class='image' style='background-image:url(/img/portfolios/"+id+"_thumb.png)'></span><div class='image_desc'>"+details.desc+"<span class='image_desc_title'>"+details.name+"</span><span class='image_desc_link'><a href='"+details.link+"'>"+details.link+"</a></span><p class='image_desc_text'></p></div></div><div id='portfolio_item_details_ss'><div id='portfolio_ss_slideshow'><img src='/img/portfolios_ss/"+details.ss+".jpg' class='portfolio_ss_slideshow_item'/></div></div></div></div>").attr("state", "o").show();
-		$("#portfolio_ss_slideshow").jScrollPane({
-			contentWidth: '800px',
-			autoReinitialise: true
-		});
-		$("#popup_close").click(function(){
+		$("#popup_container").empty().append("<div class='container' id='portfolio_item_details_container'><div id='portfolio_item_details'><div id='portfolio_item_details_info' class='row'><i id='popup_close' class='fa fa-times'></i><div class='col-md-auto'><span class='image' style='background-image:url(/img/portfolios/"+id+"_thumb.png)'></span></div><div class='col-md-auto image_desc'>"+details.desc+"<span class='image_desc_title'>"+details.name+"</span><span class='image_desc_link'><a href='"+details.link+"'>"+details.link+"</a></span></div></div><div id='portfolio_item_details_ss'><div id='portfolio_ss_slideshow'><img src='/img/portfolios_ss/"+details.ss+".jpg' class='portfolio_ss_slideshow_item'/></div></div></div></div>").attr("state", "o").show();
+
+		$("#popup_close").click(function(e){
 			if($("#popup_container").attr("state") == "o")
 			{
 				$("#popup_container").empty().fadeOut();
 			}
 		});
+		$("#portfolio_item_details_container").data("scrollbar", new PerfectScrollbar('#portfolio_item_details_container', {
+			wheelSpeed: 2,
+			wheelPropagation: true,
+			minScrollbarLength: 20
+		}));
 	});
+
 	$("#top-header-bar-nav li").click(function(){
 		$('html, body').animate({
 			scrollTop: $("#"+$(this).attr("tar")).offset().top
@@ -31,12 +34,13 @@ $(document).ready(function(){
 			alert("Please enter all the required fields");
 			return false;
 		}
-		var structData = {};
+		var structData = {"form":{}};
 		$("#contact_me_form .text_box").each(function(){
-			structData[$(this).attr("name")] = $(this).val();
+			var name = $(this).attr("name").split("c_")[1];
+			structData["form"][name] = $(this).val();
 		});
 		$.ajax({
-			url:"https://script.google.com/macros/s/AKfycbzhTTenX7YxRodvtHgJ1S9HtZD7rjoLqmUHypQok7fENCiiXtpH/exec",
+			url:"https://herve.prashanthca.in/api/forms/submit/contactme?token=8ac18a805dda3f7cd23a98d7353d99",
 			type:"POST",
 			data: structData,
 			beforeSend: function(){
