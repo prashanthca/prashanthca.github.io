@@ -4,7 +4,7 @@
 }
 
 html,body {
-	font-family: Inter;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	margin: 0;
 	position: relative;
 	background: #f2f6f7;
@@ -22,7 +22,7 @@ html,body {
 
 #top-header-bar .navbar-collapse.show #top-header-bar-nav li::before {
     content: '—';
-    font-family: Inter;
+    font-family: inherit;
     font-weight: 500;
     margin-right: 6px;
 }
@@ -54,7 +54,7 @@ html,body {
 #header-text-title {
 	color: #eee;
 	display: block;
-	font-family: Inter;
+	font-family: inherit;
 	font-size: 2.1em;
 	font-weight: 700;
 	letter-spacing: .2em;
@@ -78,7 +78,7 @@ html,body {
 .section-title .title-text {
 	color: #475b6b;
 	display: block;
-	font-family: Inter;
+	font-family: inherit;
 	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 0.1rem;
@@ -151,7 +151,7 @@ table#skills-blocks {
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-family: Inter;
+	font-family: inherit;
 	margin: 20px 0 15px 0;
 	display: block;
 }
@@ -159,7 +159,7 @@ table#skills-blocks {
 #top-header-bar-name {
 	color: #ddd;
 	float: left;
-	font-family: Inter;
+	font-family: inherit;
 	letter-spacing: .09em;
 	text-transform: uppercase;
 }
@@ -173,7 +173,7 @@ ul#top-header-bar-nav {
 	color: #ccc;
 	cursor: pointer;
 	display: inline;
-	font-family: Inter;
+	font-family: inherit;
 	font-size: .75em;
 	letter-spacing: 1px;
 	margin: 5px 20px;
@@ -289,7 +289,7 @@ span.portfolio-item-image {
 .portfolio-item-hover-text-title {
 	color: #666;
 	display: block;
-	font-family: Inter;
+	font-family: inherit;
 	font-style: normal;
 	font-weight: 700;
 }
@@ -420,7 +420,7 @@ td#mobile-app-development-block .skill-text {
 	border: none;
 	background: none;
 	font-size: 13px;
-	font-family: Inter;
+	font-family: inherit;
 	border-bottom: 1px solid #ccc;
 	margin-top: 20px;
 	width: 100%;
@@ -471,7 +471,7 @@ label.required_text_box::after {
 	background: none;
 	color: #eee;
 	font-size: 16px;
-	font-family: Inter;
+	font-family: inherit;
 	text-transform: uppercase;
 	cursor: pointer;
 	background: #ca3c57;
@@ -522,7 +522,7 @@ span.image_desc_title {
 	display: block;
 	font-size: 1.5em;
 	font-weight: bold;
-	font-family: Inter;
+	font-family: inherit;
 	letter-spacing: 0.02em;
 	color: #444;
 }
