@@ -19,17 +19,24 @@ html,body {
 #top-header-bar span.fa.fa-bars {
 	color: #fff;
 }
-
-#top-header-bar .navbar-collapse.show #top-header-bar-nav li::before {
-	content: '—';
-	font-family: inherit;
-	font-weight: 500;
-	margin-right: 6px;
+#top-header-bar .navbar-collapse.show #top-header-bar-nav {
+	background: rgba(52, 73, 94, 0.35);
+	border: 1px solid #2c3e60;
+	border-radius: 2px;
 }
 
+li.nav-item {}
+
+#top-header-bar .navbar-collapse.show #top-header-bar-nav li:active {
+	background: rgba(0,0,0,0.34);
+}
+#top-header-bar .navbar-collapse.show #top-header-bar-nav li {
+	margin: 0;
+	padding: 10px;
+}
 #header {
 	background-size: cover;
-	background-image: url(/img/15844.jpg); /*radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );	*/
+	background-image: url(/img/bg2_pca.jpg); /*radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );	*/
 	border-bottom: 1px solid #026fc4;
 	padding: 10px 0;
 }
