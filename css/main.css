@@ -258,8 +258,18 @@ span.portfolio-item-image {
 	background-size: 100%;
 }
 
-#portfolio-items #bsi .portfolio-item-image {
-	background-image: url(/img/portfolios/bsi.png);
+#portfolio-items #vvisionalpha .portfolio-item-image {
+	background-image: url(/img/portfolios/vvisionalpha.png);
+	background-size: 100%;
+}
+
+#portfolio-items #ntca .portfolio-item-image {
+	background-image: url(/img/portfolios/ntca.png);
+	background-size: 100%;
+}
+
+#portfolio-items #shambhavishilpa .portfolio-item-image {
+	background-image: url(/img/portfolios/shambhavishilpa.png);
 	background-size: 100%;
 }
 

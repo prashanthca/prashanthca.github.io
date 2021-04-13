@@ -4,11 +4,21 @@
 		"link":"http://eventscell.com",
 		"desc":"",
 		"ss": "eventscell_ss"
-	}, "bsi": {
-		"name":"Building Stock Inventory",
-		"link":"",
+	}, "ntca": {
+		"name":"National Tiger Conservation Authority",
+		"link":"https://ntca.gov.in",
 		"desc":"",
-		"ss": "bsi_ss"
+		"ss": "ntca_ss"
+	}, "vvisionalpha": {
+		"name":"V Vision Alpha",
+		"link":"https://vvisionalpha.com",
+		"desc":"",
+		"ss": "vva_ss"
+	}, "ntca": {
+		"name":"Shambhavi Shilpa",
+		"link":"https://shambhavishilpa.com",
+		"desc":"",
+		"ss": "shambhavishilpa_ss"
 	}, "charity": {
 		"name":"EventsCell.com",
 		"link":"",
