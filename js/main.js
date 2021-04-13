@@ -1,4 +1,41 @@
-var portfolios = {"eventscell":{"name":"EventsCell.com", "link":"http://eventscell.com", "desc":"", "ss": "eventscell_ss"}, "ntca": {"name":"National Tiger Conservation Authority", "link":"https://ntca.gov.in", "desc":"", "ss": "ntca_ss"}, "vvisionalpha": {"name":"V Vision Alpha", "link":"https://vvisionalpha.com", "desc":"", "ss": "vvisionalpha_ss"}, "shambhavishilpa": {"name":"Shambhavi Shilpa", "link":"https://shambhavishilpa.com", "desc":"", "ss": "shambhavishilpa_ss"}, "charity": {"name":"EventsCell.com", "link":"", "desc":"", "ss": "charity_ss"}, "derextech":{"name":"DerexTech.com", "link":"http://derextech.com", "desc":"", "ss": "derextech_ss"} };
+var portfolios = {
+	"eventscell":{
+		"name":"EventsCell.com",
+		"link":"http://eventscell.com",
+		"desc":"",
+		"ss": "eventscell_ss"
+	}, "ntca": {
+		"name":"National Tiger Conservation Authority",
+		"link":"https://ntca.gov.in",
+		"desc":"Official website of the National Tiger Conservation Authority, Government of India",
+		"ss": "ntca_ss"
+	}, "vvisionalpha": {
+		"name":"V Vision Alpha",
+		"link":"https://vvisionalpha.com",
+		"desc":"",
+		"ss": "vvisionalpha_ss"
+	}, "shambhavishilpa": {
+		"name":"Shambhavi Shilpa",
+		"link":"https://shambhavishilpa.com",
+		"desc":"",
+		"ss": "shambhavishilpa_ss"
+	}, "charity": {
+		"name":"Web Design for a Charity",
+		"link":"",
+		"desc":"",
+		"ss": "charity_ss"
+	}, "derextech":{
+		"name":"DerexTech.com",
+		"link":"http://derextech.com",
+		"desc":"",
+		"ss": "derextech_ss"
+	}, "prgroups":{
+		"name":"PRGroups.com",
+		"link":"http://prgroups.com",
+		"desc":"",
+		"ss": "prgroups_ss"
+	}
+};
 
 $(document).ready(function(){
 	$("#portfolio-items .portfolio-item").mouseover(function(){
