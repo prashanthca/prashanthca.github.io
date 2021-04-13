@@ -1,4 +1,5 @@
-var portfolios = {"eventscell":{"name":"EventsCell.com","link":"http://eventscell.com","desc":"","ss":"eventscell_ss"},"bsi":{"name":"Building Stock Inventory","link":"","desc":"","ss":"bsi_ss"},"charity":{"name":"Charity Web Design","link":"","desc":"","ss":"charity_ss"},"derextech":{"name":"DerexTech.com","link":"http://derextech.com","desc":"","ss":"derextech_ss"},"invictolimited":{"name":"Invicto Limited","link":"http://invictolimited.com","desc":"","ss":"invictolimited_ss"},"prgroups":{"name":"PRGroups","link":"http://prgroups.in","desc":"","ss":"prgroups_ss"}};
+var portfolios = {"eventscell":{"name":"EventsCell.com", "link":"http://eventscell.com", "desc":"", "ss": "eventscell_ss"}, "ntca": {"name":"National Tiger Conservation Authority", "link":"https://ntca.gov.in", "desc":"", "ss": "ntca_ss"}, "vvisionalpha": {"name":"V Vision Alpha", "link":"https://vvisionalpha.com", "desc":"", "ss": "vvisionalpha_ss"}, "ntca": {"name":"Shambhavi Shilpa", "link":"https://shambhavishilpa.com", "desc":"", "ss": "shambhavishilpa_ss"}, "charity": {"name":"EventsCell.com", "link":"", "desc":"", "ss": "charity_ss"}, "derextech":{"name":"DerexTech.com", "link":"http://derextech.com", "desc":"", "ss": "derextech_ss"} };
+
 $(document).ready(function(){
 	$("#portfolio-items .portfolio-item").mouseover(function(){
 		$(this).find(".portfolio-item-hover").show();

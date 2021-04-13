@@ -249,8 +249,9 @@ span.portfolio-item-image {
 
 #portfolio-items #eventscell .portfolio-item-image {
 	background-image: url(/img/portfolios/eventscell.png);
-	background-size: 100%;
+	background-size: cover;
 	top: 0;
+	background-position: center;
 }
 
 #portfolio-items #charity .portfolio-item-image {
