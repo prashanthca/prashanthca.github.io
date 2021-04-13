@@ -34,6 +34,11 @@ var portfolios = {
 		"link":"http://prgroups.com",
 		"desc":"",
 		"ss": "prgroups_ss"
+	}, "invictolimited":{
+		"name":"InvictoLimited.com",
+		"link":"http://invictolimited.com",
+		"desc":"",
+		"ss": "invictolimited_ss"
 	}
 };
 
