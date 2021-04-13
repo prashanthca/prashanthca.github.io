@@ -250,43 +250,49 @@ span.portfolio-item-image {
 #portfolio-items #eventscell .portfolio-item-image {
 	background-image: url(/img/portfolios/eventscell.png);
 	background-size: cover;
-	top: 0;
 	background-position: center;
 }
 
 #portfolio-items #charity .portfolio-item-image {
 	background-image: url(/img/portfolios/charity-site.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #vvisionalpha .portfolio-item-image {
 	background-image: url(/img/portfolios/vvisionalpha.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #ntca .portfolio-item-image {
 	background-image: url(/img/portfolios/ntca.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #shambhavishilpa .portfolio-item-image {
 	background-image: url(/img/portfolios/shambhavishilpa.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #derextech .portfolio-item-image {
 	background-image: url(/img/portfolios/derextech.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #prgroups .portfolio-item-image {
 	background-image: url(/img/portfolios/prgroups.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 #portfolio-items #invictolimited .portfolio-item-image {
 	background-image: url(/img/portfolios/invictolimited.png);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .portfolio-item-hover-text {
