@@ -39,6 +39,11 @@ var portfolios = {
 		"link":"http://invictolimited.com",
 		"desc":"",
 		"ss": "invictolimited_ss"
+	}, "gbs":{
+		"name":"Global Business Stays",
+		"link":"http://globalbusinessstays.com",
+		"desc":"One stop shop for Corporate Housing Solutions worldwide",
+		"ss": "gbs_ss"
 	}
 };
 

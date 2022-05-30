@@ -295,6 +295,12 @@ span.portfolio-item-image {
 	background-position: center;
 }
 
+#portfolio-items #gbs .portfolio-item-image {
+	background-image: url(/img/portfolios/gbs.png);
+	background-size: cover;
+	background-position: center;
+}
+
 .portfolio-item-hover-text {
 	background: #f6f6f6;
 	border-radius: 2px;
@@ -347,7 +353,7 @@ span.portfolio-item-image {
 	color: #444;
 	font-size: 14px;
 	line-height: 23px;
-	padding: 30px 40px;
+	padding: 30px 40px 10px;
 	text-align: center;
 }
 
@@ -611,4 +617,17 @@ span.image_desc_title {
 
 img.portfolio_ss_slideshow_item {
 	width: 100%;
+}
+
+div#about_me_resume {
+    text-align: center;
+    padding: 10px 10px 15px;
+}
+
+a#download-resume {
+    font-size: 14px;
+}
+
+a#download-resume .fa {
+    margin-right: 7px;
 }
